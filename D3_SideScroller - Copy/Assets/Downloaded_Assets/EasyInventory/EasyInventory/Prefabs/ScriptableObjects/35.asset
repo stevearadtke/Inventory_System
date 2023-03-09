@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753a43b119419b0419939def10c54b46, type: 3}
+  m_Name: 35
+  m_EditorClassIdentifier: 
+  itemId: 34
+  itemName: Iron ore
+  itemDescription: A set of seemingly random rocks.
+  stackable: 0
+  icon: {fileID: 21300000, guid: 3cc453e6563e1d2459d7ec4287bab0aa, type: 3}
+  hover_icon: {fileID: 21300000, guid: a3a787ddea99b1d4fb4fb7d6bfff04c6, type: 3}

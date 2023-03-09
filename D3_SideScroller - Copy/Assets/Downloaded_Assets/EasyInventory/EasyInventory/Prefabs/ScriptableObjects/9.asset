@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753a43b119419b0419939def10c54b46, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  itemId: 8
+  itemName: Oak tree
+  itemDescription: A beautiful oak tree specimen.
+  stackable: 0
+  icon: {fileID: 21300000, guid: 40bf4b7f0795ff948919107e2001ed5d, type: 3}
+  hover_icon: {fileID: 21300000, guid: 462b60d9f217d1b4080179fe64891264, type: 3}
