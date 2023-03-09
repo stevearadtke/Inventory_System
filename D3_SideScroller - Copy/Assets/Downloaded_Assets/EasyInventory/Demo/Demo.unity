@@ -2345,11 +2345,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 1022630201}
---- !u!4 &616826604 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6634238481806254747, guid: 97f6057ed3ae85042b1d1aeb4acc5207, type: 3}
-  m_PrefabInstance: {fileID: 6634238480384779777}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &636222916
 GameObject:
   m_ObjectHideFlags: 0
@@ -5193,53 +5188,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339083824}
   m_CullTransparentMesh: 1
---- !u!1 &1339116776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1339116777}
-  - component: {fileID: 1339116778}
-  m_Layer: 0
-  m_Name: GameManagers_IDK if I still need this
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1339116777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339116776}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 616826604}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1339116778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339116776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39f39f026f68e754d996981b959a3240, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory:
-    slots: []
-  pickableItemPrefab: {fileID: 4239511532145446368, guid: 89254f5efa18f6d4393f861353d14c15, type: 3}
 --- !u!224 &1427622067 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4146570228500530680, guid: bb972b2de9deec643b3685783de333d7, type: 3}
@@ -5927,67 +5875,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2098134752}
---- !u!1 &1588267693
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1588267694}
-  - component: {fileID: 1588267695}
-  - component: {fileID: 1588267696}
-  m_Layer: 0
-  m_Name: InventoryManager IDK if I still need this
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1588267694
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588267693}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 616826604}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1588267695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588267693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624f124fbe49e24488e753d462f090e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory:
-    slots: []
---- !u!114 &1588267696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588267693}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 615c9ce6c1f5f5a4cb047690b8a074d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileName: myInventory.inv
-  UIItemPrefab: {fileID: 224708235773680422, guid: 4805a49145a6b3043998d0523301dae7, type: 3}
 --- !u!1 &1597009261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,13 +7846,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6634238481806254747, guid: 97f6057ed3ae85042b1d1aeb4acc5207, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1339116777}
-    - targetCorrespondingSourceObject: {fileID: 6634238481806254747, guid: 97f6057ed3ae85042b1d1aeb4acc5207, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1588267694}
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 97f6057ed3ae85042b1d1aeb4acc5207, type: 3}
 --- !u!1001 &6996407571213999368
 PrefabInstance:

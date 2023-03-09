@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1108.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 59
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 113
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 1382
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,22 +402,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Inventory_Scripts/Equipment Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 90
   m_LastFolders:
-  - Assets/Scripts/Inventory_Scripts/Equipment Scripts
+  - Assets
   m_LastFoldersGridSize: 90
-  m_LastProjectPath: Z:\Unity_Games\D3_SideScroller - Copy
+  m_LastProjectPath: Z:\GitHub\Inventory_System\Inventory_System\D3_SideScroller
+    - Copy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 583.7999}
-    m_SelectedIDs: 26240200
-    m_LastClickedID: 140326
-    m_ExpandedIDs: 00000000b4710000b6710000d2710000d6710000da710000e6710000c0980000eea900001aaa00002caa000030aa00003aaa000042aa00001224020000ca9a3b
+    scrollPos: {x: 0, y: 43.799927}
+    m_SelectedIDs: a2750000
+    m_LastClickedID: 30114
+    m_ExpandedIDs: 00000000a2750000a475000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +446,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4710000b6710000
+    m_ExpandedIDs: 00000000a2750000a4750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -573,9 +574,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e7799ff
-      m_LastClickedID: -6719682
-      m_ExpandedIDs: ca0198ff8e3398ff667799ff8e7799ffd08099ff168299ff188299ff1a8299ffae8799ff88b499fff81dffff0831ffff9233ffff9433ffff9633ffff8236ffff8436ffff686fffff6c6fffff4270ffff4e70ffffec7dffff8a80ffffa895ffffe896ffff5098ffffaef9ffff16faffff08fbffffba6e0000c66e0000d26e0000de6e00002a6f0000949700008ead0000e8ad00007eae00007caf00005ec1000042c40000b8c500004ec6000006150100181501001c1601002c1a0100a21b0100be200100d2200100e620010034210100c0210100c8210100d2210100a2220100e8220100
+      m_SelectedIDs: eefaffff
+      m_LastClickedID: -1298
+      m_ExpandedIDs: f6faffff08fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -890,7 +891,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1999998, y: 41.4, z: 90}
+    m_Target: {x: 485.74997, y: 588.79346, z: 0}
     speed: 2
     m_Value: {x: 1.1999998, y: 41.4, z: 90}
   m_RenderMode: 0
@@ -942,7 +943,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.242163
+    m_Target: 617.16327
     speed: 2
     m_Value: 8.242163
   m_Ortho:
